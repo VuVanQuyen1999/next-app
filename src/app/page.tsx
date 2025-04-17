@@ -34,7 +34,7 @@ export default function Home() {
   const [firstName, setFirstName] = useState("");
   const [scendName, setSecondName] = useState("");
   const [lastName, setLastName] = useState("");
-  const [isShowCard, setIsShowCard] = useState(true);
+  const [isShowCard, setIsShowCard] = useState(false);
   const [score, setScore] = useState(0);
   const [scoreDC, setScoreDC] = useState(0);
 
